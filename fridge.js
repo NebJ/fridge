@@ -33,7 +33,8 @@ rgb.refresh = function () {
 
 // generating magnets based on alphabet.
 var magnetsById = {}, magnets =
-"AAAABBCCDDEEEEFFGGHHIIIJJKKLLMMNNOOOPPQQRRSSTTUUUVVWXYZ11223344556677889900☺⬅⬆⬇⬈⬉⬊⬋⬌⬍'|-_"
+("AAAABBCCDDEEEEFFGGHHIIIJJKKLLMMNNOOOPPQQRRSSTTUUUVVWXYZ11223344556677889900☺⬅⬆⬇⬈⬉⬊⬋⬌⬍'|-_" +
+"AAAABBCCDDEEEEFFGGHHIIIJJKKLLMMNNOOOPPQQRRSSTTUUUVVWXYZ11223344556677889900☺⬅⬆⬇⬈⬉⬊⬋⬌⬍'|-_")
 	.split('')
 	.map(function (magnet, i) {
 		return { 'id' : 'm'+i
