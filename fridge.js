@@ -110,4 +110,5 @@ nowjs.on('disconnect', function () {
 			 .forEach(function (m) { m.owner = null })
 })
 
-server.listen(80)
+var port = process.env.PORT || 3000;
+server.listen(port)
